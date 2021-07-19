@@ -1,0 +1,22 @@
+{
+  "main": "../MobileGame/node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "../MobileGame/node_modules/.bin/expo start",
+    "android": "../MobileGame/node_modules/.bin/expo start --android",
+    "ios": "../MobileGame/node_modules/.bin/expo start --ios",
+    "web": "../MobileGame/node_modules/.bin/expo start --web",
+    "eject": "../MobileGame/node_modules/.bin/expo eject"
+  },
+  "dependencies": {
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
+}
